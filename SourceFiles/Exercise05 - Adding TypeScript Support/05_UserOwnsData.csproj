@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-UserOwnsData-BE08E055-A200-4310-A55E-5F6AAB557F13</UserSecretsId>
+    <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Identity.Web" Version="0.2.0-preview" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="0.2.0-preview" />
+    <PackageReference Include="Microsoft.PowerBi.Api" Version="3.14.0" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="npm run build" />
+  </Target>
+
+</Project>
