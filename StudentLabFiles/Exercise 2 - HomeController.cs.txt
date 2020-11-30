@@ -7,35 +7,39 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using UserOwnsData.Models;
+using UserOwnsData.Services;
 
-namespace UserOwnsData.Controllers
-{
-    [Authorize]
-    public class HomeController : Controller
-    {
-        private readonly ILogger<HomeController> _logger;
+namespace UserOwnsData.Controllers {
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+  [Authorize]  
+  public class HomeController : Controller {
 
-        [AllowAnonymous]
-        public IActionResult Index()
-        {
-            return View();
-        }
+    private PowerBiServiceApi powerBiServiceApi;
 
-        public IActionResult Embed()
-        {
-            return View();
-        }
-
-        [AllowAnonymous]
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+    public HomeController(PowerBiServiceApi powerBiServiceApi) {
+      this.powerBiServiceApi = powerBiServiceApi;
     }
+
+    [AllowAnonymous]
+    public IActionResult Index() {
+      return View();
+    }
+
+    public async Task<IActionResult> Embed() {
+
+      Guid workspaceId = new Guid("33333333-3333-3333-3333-333333333333");
+      Guid reportId = new Guid("44444444-4444-4444-4444-444444444444");
+
+      var viewModel = await powerBiServiceApi.GetReport(workspaceId, reportId);
+      return View(viewModel);
+
+    }
+
+    [AllowAnonymous]
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error() {
+      return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+  
+  }
 }

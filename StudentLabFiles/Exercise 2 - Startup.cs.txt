@@ -13,9 +13,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
+using Microsoft.Identity.Web.UI;
 using Microsoft.Identity.Web.TokenCacheProviders;
 using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
-using Microsoft.Identity.Web.UI;
+
+using UserOwnsData.Services;
 
 namespace UserOwnsData {
 
@@ -30,7 +32,12 @@ namespace UserOwnsData {
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services) {
 
-      services.AddMicrosoftIdentityWebAppAuthentication(Configuration);
+      services
+        .AddMicrosoftIdentityWebAppAuthentication(Configuration)
+        .EnableTokenAcquisitionToCallDownstreamApi(PowerBiServiceApi.RequiredScopes)
+        .AddInMemoryTokenCaches();
+
+      services.AddScoped(typeof(PowerBiServiceApi));
 
       var mvcBuilder = services.AddControllersWithViews(options => {
         var policy = new AuthorizationPolicyBuilder()
