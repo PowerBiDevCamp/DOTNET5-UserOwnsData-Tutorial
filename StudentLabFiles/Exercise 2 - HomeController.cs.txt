@@ -26,13 +26,7 @@ namespace UserOwnsData.Controllers {
     }
 
     public async Task<IActionResult> Embed() {
-
-      Guid workspaceId = new Guid("33333333-3333-3333-3333-333333333333");
-      Guid reportId = new Guid("44444444-4444-4444-4444-444444444444");
-
-      var viewModel = await powerBiServiceApi.GetReport(workspaceId, reportId);
-      return View(viewModel);
-
+      return View();
     }
 
     [AllowAnonymous]
