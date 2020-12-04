@@ -97,27 +97,26 @@ reply URL of **https://localhost:** 5001**/signin-oidc**.
 
 11. The script also contains the code below which creates a new
     **PasswordCredential** object for an app secret.
+```
+# create app secret
+$newGuid = New-Guid
 
-\# create app secret
-
-\$newGuid = New-Guid
-
-\$appSecret =
+$appSecret =
 (\[System.Convert\]::ToBase64String(\[System.Text.Encoding\]::UTF8.GetBytes((\$newGuid))))+\"=\"
 
-\$startDate = Get-Date
+$startDate = Get-Date
 
-\$passwordCredential = New-Object -TypeName
+$passwordCredential = New-Object -TypeName
 Microsoft.Open.AzureAD.Model.PasswordCredential
 
-\$passwordCredential.StartDate = \$startDate
+$passwordCredential.StartDate = $startDate
 
-\$passwordCredential.EndDate = \$startDate.AddYears(1)
+$passwordCredential.EndDate = $startDate.AddYears(1)
 
-\$passwordCredential.KeyId = \$newGuid
+$passwordCredential.KeyId = $newGuid
 
-\$passwordCredential.Value = \$appSecret
-
+$passwordCredential.Value = $appSecret
+```
 12. Down below, you can see the call to the **New-AzureADApplication**
     cmdlet which creates a new Azure AD application.
 
