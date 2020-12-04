@@ -94,7 +94,7 @@ reply URL of **https://localhost:** 5001**/signin-oidc**.
 
 11. The script also contains the code below which creates a new
     **PasswordCredential** object for an app secret.
-```
+```PowerShell
 # create app secret
 $newGuid = New-Guid
 
