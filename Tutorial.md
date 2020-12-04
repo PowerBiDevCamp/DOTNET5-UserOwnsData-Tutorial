@@ -80,14 +80,15 @@ provides to make it easier to copy and paste.
 9.  The script begins by calling **Connect-AzureAD** to establish a
     connection with Azure AD.
 ```
-\$authResult = Connect-AzureAD
+$authResult = Connect-AzureAD
 ```
 10. The script contains two variables to set the application name and a
     reply URL of **https://localhost:5001/signin-oidc**.
 
-\$appDisplayName = \"User-Owns-Data Sample App\"
-
-\$replyUrl = \"https://localhost:5001/signin-oidc\"
+```
+$appDisplayName = User-Owns-Data Sample App"
+$replyUrl = "https://localhost:5001/signin-oidc\"
+```
 
 When you register a reply URL with **localhost** with a port number such
 as **5001**, Azure AD will allow you to perform testing with reply URLs
