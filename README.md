@@ -152,7 +152,7 @@ PowerShell module named **AzureAD**.
 16. When the PowerShell script runs successfully, it will create and
     open a text file named **UserOwnsDataSampleApp.txt**.
 
-![](media\image2.png){width="2.768640638670166in"
+![](/media/image2.png){width="2.768640638670166in"
 height="2.0269346019247596in"}
 
 You should leave the text file **UserOwnsDataSampleApp.txt** open for
@@ -174,7 +174,7 @@ the new Microsoft authentication library named Microsoft.Identity.Web..
 17. Using Windows Explorer, create a child folder inside the
     **C:\\DevCamp** folder named **UserOwnsData**.
 
-![](media\image3.png){width="2.6809208223972005in"
+![](/media/image3.png){width="2.6809208223972005in"
 height="0.8044652230971129in"}
 
 18. Launch Visual Studio Code.
@@ -182,13 +182,13 @@ height="0.8044652230971129in"}
 19. Use the **Open Folder...** command in Visual Studio Code to open the
     **UserOwnsData** folder.
 
-![](media\image4.png){width="3.5007403762029745in"
+![](/media/image4.png){width="3.5007403762029745in"
 height="0.86873687664042in"}
 
 a.  Once you have open the **UserOwnsData** folder, close the
     **Welcome** page.
 
-![](media\image5.png){width="4.417763560804899in"
+![](/media/image5.png){width="4.417763560804899in"
 height="0.740650699912511in"}
 
 20. Use the Terminal console to verify the current version of .NET
@@ -197,13 +197,13 @@ height="0.740650699912511in"}
     \[**Ctrl+Shift+\`**\] keyboard shortcut to open the Terminal
     console.
 
-![](media\image6.png){width="4.987938538932633in"
+![](/media/image6.png){width="4.987938538932633in"
 height="0.9740332458442694in"}
 
 a.  You should now see a Terminal console with a cursor where you can
     type and execute command-line instructions.
 
-![](media\image7.png){width="5.102812773403325in"
+![](/media/image7.png){width="5.102812773403325in"
 height="1.9967104111986003in"}
 
 22. Type the following **dotnet** command-line instruction into the
@@ -214,7 +214,7 @@ dotnet \--version
 a.  When you run the command, the **dotnet** CLI should respond by
     display the .NET version number.
 
-![](media\image8.png){width="3.2072364391951007in"
+![](/media/image8.png){width="3.2072364391951007in"
 height="0.8105282152230971in"}
 
 Make sure you .NET version number is **5.0.100** at a minimum. If you
@@ -239,7 +239,7 @@ Microsoft.Identity.Web.
 25. After running the **dotnet new** command, you should see new files
     have been added to the project.
 
-![](media\image9.png){width="4.9032469378827646in"
+![](/media/image9.png){width="4.9032469378827646in"
 height="2.014255249343832in"}
 
 1.  Copy the JSON in **UserOwnsDataSampleApp.txt** into the
@@ -251,13 +251,13 @@ height="2.014255249343832in"}
     b.  The **appsettings.json** file should initially appear like the
         screenshot below.
 
-![](media\image10.png){width="4.828990594925634in"
+![](/media/image10.png){width="4.828990594925634in"
 height="2.2423239282589678in"}
 
 26. Delete the contents of **appsettings.json** and replace it by
     copying and pasting the contents of **UserOwnsDataSampleApp.txt**
 
-![](media\image11.png){width="4.554823928258967in"
+![](/media/image11.png){width="4.554823928258967in"
 height="2.277411417322835in"}
 
 Note the **PowerBi:ServiceRootUrl** parameter has been added as a custom
@@ -279,13 +279,13 @@ configuration value so it is easy to change whenever required.
 30. You should also be able to search to find new extensions you\'d like
     to install.
 
-![](media\image12.png){width="4.072691382327209in"
+![](/media/image12.png){width="4.072691382327209in"
 height="2.619517716535433in"}
 
 31. Find and install the **C\#** extension from Microsoft if it is not
     already installed.
 
-![](media\image13.png){width="6.101865704286964in"
+![](/media/image13.png){width="6.101865704286964in"
 height="1.5290015310586176in"}
 
 32. Find and install the **Debugger for Chrome** extension from
@@ -294,7 +294,7 @@ height="1.5290015310586176in"}
 33. You should be able to confirm that the **C\#** extension and the
     **Debugger for Chrome** extensions are now installed.
 
-![](media\image14.png){width="3.325833333333333in"
+![](/media/image14.png){width="3.325833333333333in"
 height="1.1137270341207348in"}
 
 It is OK if you have other Visual Studio Code extensions installed as
@@ -312,13 +312,13 @@ addition to whatever other extensions you may have installed.
 37. Select the command titled **.NET: Generate Assets for Build and
     Debug**.
 
-![](media\image15.png){width="6.321271872265966in"
+![](/media/image15.png){width="6.321271872265966in"
 height="0.817496719160105in"}
 
 38. When the command runs successfully, in generates the files
     **launch.json** and **tasks.json** a new folder named **.vscode**.
 
-![](media\image16.png){width="6.2925in" height="1.7902744969378828in"}
+![](/media/image16.png){width="6.2925in" height="1.7902744969378828in"}
 
 It\'s not uncommon for the configuration of the C\# extension (i.e.
 Omnisharp) in Visual Studio Code to cause errors when running the
@@ -335,7 +335,7 @@ located inside the **StudentFiles** folder.
 40. Start the .NET 5 debugger by selecting **Run \> Start Debugging** or
     by pressing the **{F5}** keyboard shortcut.
 
-![](media\image17.png){width="4.170838801399825in"
+![](/media/image17.png){width="4.170838801399825in"
 height="1.3458333333333334in"}
 
 The UserOwnsData web application is currently configured authenticate
@@ -345,7 +345,7 @@ will be prompted to log in as soon as you launch the application in the
 
 41. When prompted to Sign in, log in using your organizational account.
 
-![](media\image18.png){width="1.6301629483814524in" height="1.1325in"}
+![](/media/image18.png){width="1.6301629483814524in" height="1.1325in"}
 
 42. Once you have signed in, you will be prompted to by the
     **Permissions requested** dialog to grant consent to the
@@ -353,19 +353,19 @@ will be prompted to log in as soon as you launch the application in the
 
 43. Click the **Accept** button to continue.
 
-![](media\image19.png){width="1.7791666666666666in"
+![](/media/image19.png){width="1.7791666666666666in"
 height="2.1166622922134732in"}
 
 44. You should now see the home page for the **UserOwnsData** web
     application which should match the following screenshot.
 
-![](media\image20.png){width="5.071428258967629in"
+![](/media/image20.png){width="5.071428258967629in"
 height="2.158643919510061in"}
 
 45. You\'re done testing. Close the browser, return to Visual Studio
     Code and stop the debug session using the debug toolbar.
 
-![](media\image21.png){width="2.4907972440944883in"
+![](/media/image21.png){width="2.4907972440944883in"
 height="0.6692639982502188in"}
 
 You now got to the point where the **UserOwnsData** web application is
@@ -383,7 +383,7 @@ it does not require authentication to improve the user login experience.
 48. Open the CSS file named **site.css** and delete any existing content
     inside.
 
-![](media\image22.png){width="1.9725in" height="2.1143022747156603in"}
+![](/media/image22.png){width="1.9725in" height="2.1143022747156603in"}
 
 49. Using the Windows Explorer, look inside the **StudentLabFiles**
     folder and locate the file named **Exercise 2 - site.css.txt**.
@@ -394,7 +394,7 @@ it does not require authentication to improve the user login experience.
 51. Return to Visual Studio Code and paste the contents of **Exercise
     2 - site.css.txt** into **sites.css**.
 
-![](media\image23.png){width="6.758397856517935in"
+![](/media/image23.png){width="6.758397856517935in"
 height="2.3858333333333333in"}
 
 52. Save your changes and close **site.css**.
@@ -407,7 +407,7 @@ height="2.3858333333333333in"}
 55. Copy the **favicon.ico** file into the **wwwroot** folder of your
     project.
 
-![](media\image24.png){width="2.2968733595800526in" height="1.3125in"}
+![](/media/image24.png){width="2.2968733595800526in" height="1.3125in"}
 
 Any file you add the **wwwroot** folder will appear at the root folder
 of the website created by the **UserOwnsData** project. By adding the
@@ -427,14 +427,14 @@ of the website created by the **UserOwnsData** project. By adding the
     \@User.Identity.Name!** which is used to display information about
     the user.
 
-![](media\image25.png){width="3.6466666666666665in"
+![](/media/image25.png){width="3.6466666666666665in"
 height="1.0869028871391075in"}
 
 60. Replace **Hello \@User.Identity.Name!** with **Hello
     \@User.FindFirst(\"name\").Value** as shown in the following
     screenshot.
 
-![](media\image26.png){width="4.379166666666666in"
+![](/media/image26.png){width="4.379166666666666in"
 height="0.3981058617672791in"}
 
 With this update, the application will display the user\'s display name
@@ -485,7 +485,7 @@ get started\</p\>
 66. Once you have copied the code from above, save your changes and
     close **Index.cshtml**.
 
-![](media\image27.png){width="4.2125in" height="1.4408683289588802in"}
+![](/media/image27.png){width="4.2125in" height="1.4408683289588802in"}
 
 When you create a new .NET 5 project which supports authentication, the
 underlying project template creates a home page that requires
@@ -503,7 +503,7 @@ user.
 
 69. Locate the **Index** method inside the **HomeController** class.
 
-![](media\image28.png){width="3.819166666666667in"
+![](/media/image28.png){width="3.819166666666667in"
 height="2.0563943569553804in"}
 
 70. Add the **\[AllowAnonymous\]** attribute to the **Index** method as
@@ -537,13 +537,13 @@ debugger so you can test your web application as it runs in the browser.
 75. Click the **Sign in** link to test put the user experience when
     authenticating with Azure AD.
 
-![](media\image29.png){width="3.9591666666666665in"
+![](/media/image29.png){width="3.9591666666666665in"
 height="1.0966721347331583in"}
 
 76. Once you have signed in, you should be able to see the text on the
     home page changes because the user is authenticated.
 
-![](media\image30.png){width="4.3525in" height="1.1068689851268592in"}
+![](/media/image30.png){width="4.3525in" height="1.1068689851268592in"}
 
 At this point, the user should be authenticated. For example, you should
 see the logged in user name to the left of the **Sign out** link in the
@@ -559,14 +559,14 @@ the browser cache so it loads the latest version of **site.css**.
 
 78. Click the **Sign out** link to begin the logout experience.
 
-![](media\image31.png){width="6.458834208223972in"
+![](/media/image31.png){width="6.458834208223972in"
 height="0.5591666666666667in"}
 
 79. After logging out, you\'ll be directed to the
     **Microsoft.Identity.Web** logout page at
     **/MicrosoftIdentity/Account/SignedOut**.
 
-![](media\image32.png){width="4.539576771653543in" height="0.8125in"}
+![](/media/image32.png){width="4.539576771653543in" height="0.8125in"}
 
 80. You\'re done testing. Close the browser, return to Visual Studio
     Code and stop the debug session using the debug toolbar.
@@ -628,11 +628,11 @@ secured page such as **Embed**.
 86. Look inside the **Views \> Home** folder and locate the razor view
     file named **Privacy.cshtml**.
 
-![](media\image33.png){width="2.046038932633421in" height="1.4525in"}
+![](/media/image33.png){width="2.046038932633421in" height="1.4525in"}
 
 87. Rename the **Privacy.cshtml** razor file to **Embed.cshtml**..
 
-![](media\image34.png){width="1.768928258967629in" height="0.9525in"}
+![](/media/image34.png){width="1.768928258967629in" height="0.9525in"}
 
 88. Open **Embed.cshtml** in a code editor.
 
@@ -664,7 +664,7 @@ can add a link to the **Embed** page into the top navigation menu.
 95. Return to Visual Studio Code and paste the contents of the Windows
     clipboard into the **\_Layouts.cshtml** file.
 
-![](media\image35.png){width="6.571130796150481in" height="2.6125in"}
+![](/media/image35.png){width="6.571130796150481in" height="2.6125in"}
 
 96. Save your changes and close **\_Layouts.cshtml**
 
@@ -680,7 +680,7 @@ can add a link to the **Embed** page into the top navigation menu.
 100. Click on the **Embed** link in the top nav menu to navigate to the
      **Embed** page.
 
-![](media\image36.png){width="5.01084864391951in"
+![](/media/image36.png){width="5.01084864391951in"
 height="1.0258333333333334in"}
 
 101. When you attempt to navigate to the **Embed** page as an anonymous
@@ -688,12 +688,12 @@ height="1.0258333333333334in"}
 
 102. Log in using your user name and password.
 
-![](media\image37.png){width="1.4904101049868765in" height="1.16in"}
+![](/media/image37.png){width="1.4904101049868765in" height="1.16in"}
 
 103. Once you have logged in, you should be automatically redirected to
      the **Embed** page.
 
-![](media\image38.png){width="4.842731846019247in"
+![](/media/image38.png){width="4.842731846019247in"
 height="0.8380621172353456in"}
 
 104. You\'re done testing. Close the browser, return to Visual Studio
@@ -715,7 +715,7 @@ Service API*.
 107. From the **File** menu, select the **Open \> Project/Solution...**
      command.
 
-![](media\image39.png){width="4.491361548556431in"
+![](/media/image39.png){width="4.491361548556431in"
 height="0.7722648731408573in"}
 
 108. In the **Open Project/Solution** dialog, select the
@@ -725,7 +725,7 @@ height="0.7722648731408573in"}
 109. The **UserOwnsData** project should now be open in Visual Studio
      2019 as shown in the following screenshot.
 
-![](media\image40.png){width="2.9066666666666667in"
+![](/media/image40.png){width="2.9066666666666667in"
 height="2.77251312335958in"}
 
 There is one big difference between developing with Visual Studio Code
@@ -741,12 +741,12 @@ it easier to develop this project with Visual Studio 2019.
 111. From the **File** menu, select the **Save UserOwnsData.sln** menu
      command.
 
-![](media\image41.png){width="3.4525in" height="1.1167027559055118in"}
+![](/media/image41.png){width="3.4525in" height="1.1167027559055118in"}
 
 112. Save the solution file **UserOwnsData.sln** in the **UserOwnsData**
      project folder
 
-![](media\image42.png){width="2.14in" height="1.1468810148731408in"}
+![](/media/image42.png){width="2.14in" height="1.1468810148731408in"}
 
 Remember that the **UserOwnsData.sln** file is only used by Visual
 Studio 2019 and it not used at all in Visual Studio Code.
@@ -776,13 +776,13 @@ data about a report required for embedding.
 
     a.  Click the **Workspace** flyout menu in the left navigation.
 
-![](media\image43.png){width="1.0157195975503062in"
+![](/media/image43.png){width="1.0157195975503062in"
 height="1.3458333333333334in"}
 
 b.  Click the **Create app workspace** button to display the **Create an
     > app workspace** dialog.
 
-![](media\image44.png){width="1.6328652668416448in"
+![](/media/image44.png){width="1.6328652668416448in"
 height="0.9791666666666666in"}
 
 c.  In the **Create an app workspace** pane, enter a workspace name such
@@ -790,7 +790,7 @@ c.  In the **Create an app workspace** pane, enter a workspace name such
 
 d.  Click the **Save** button to create the new app workspace.
 
-![](media\image45.png){width="2.3291983814523185in"
+![](/media/image45.png){width="2.3291983814523185in"
 height="3.0981594488188975in"}
 
 e.  When you click **Save**, the Power BI service should create the new
@@ -798,7 +798,7 @@ e.  When you click **Save**, the Power BI service should create the new
     > running within the context of the new **Dev Camp Demos**
     > workspace.
 
-![](media\image46.png){width="3.1477055993000875in"
+![](/media/image46.png){width="3.1477055993000875in"
 height="1.6787751531058617in"}
 
 Now that you have created the new app workspace, the next step is to
@@ -815,18 +815,18 @@ and use that instead.
 
 116. Click the **Get** button in the **Files** section.
 
-![](media\image47.png){width="3.878043525809274in"
+![](/media/image47.png){width="3.878043525809274in"
 height="1.6167191601049868in"}
 
 117. Click on **Local File** in order to select a PBIX file that you
      have on your local hard drive.
 
-![](media\image48.png){width="2.6725in" height="0.8265540244969379in"}
+![](/media/image48.png){width="2.6725in" height="0.8265540244969379in"}
 
 118. Select the PBIX file and click the **Open** button to upload it to
      the Power BI Service.
 
-![](media\image49.png){width="2.5525in" height="1.137988845144357in"}
+![](/media/image49.png){width="2.5525in" height="1.137988845144357in"}
 
 119. The Power BI Service should have created a report and a dashboard
      from the PBIX file you uploaded.
@@ -834,19 +834,19 @@ height="1.6167191601049868in"}
 120. If the Power BI Service created a dashboard as well, delete this
      dashboard as you will not need it.
 
-![](media\image50.png){width="2.8725in" height="1.239857830271216in"}
+![](/media/image50.png){width="2.8725in" height="1.239857830271216in"}
 
 121. Open the report to see what it looks like when displayed in the
      Power BI Service.
 
 122. Click on the report to open it.
 
-![](media\image51.png){width="3.8278510498687663in"
+![](/media/image51.png){width="3.8278510498687663in"
 height="1.188063210848644in"}
 
 123. You should now be able to see the report.
 
-![](media\image52.png){width="5.039166666666667in"
+![](/media/image52.png){width="5.039166666666667in"
 height="1.6042629046369203in"}
 
 In the next step, you will find and record the GUID-based IDs for the
@@ -859,7 +859,7 @@ this exercises when you first write the code to embed a report in the
 125. Locate and copy the app workspace ID from the report URL by copying
      the GUID that comes after **/groups/**.
 
-![](media\image53.png){width="3.6791666666666667in"
+![](/media/image53.png){width="3.6791666666666667in"
 height="1.0382305336832895in"}
 
 126. Open up a new text file in a program such as Notepad and paste in
@@ -868,12 +868,12 @@ height="1.0382305336832895in"}
 127. Locate and copy the report ID from the URL by copying the GUID that
      comes after **/reports/**.
 
-![](media\image54.png){width="3.8449890638670166in"
+![](/media/image54.png){width="3.8449890638670166in"
 height="0.8991666666666667in"}
 
 128. Copy the report ID into the text file Notepad.
 
-![](media\image55.png){width="2.745833333333333in"
+![](/media/image55.png){width="2.745833333333333in"
 height="0.568423009623797in"}
 
 Leave the text file open for now. In a step later in this exercise, you
@@ -889,13 +889,13 @@ will copy and paste these IDs into your C\# code.
 
 dotnet add package Microsoft.PowerBi.Api
 
-![](media\image56.png){width="4.839166666666666in"
+![](/media/image56.png){width="4.839166666666666in"
 height="0.9972637795275591in"}
 
 130. Open the **UserOwnsData.csproj** file. You should now see this file
      contains a package reference to **Microsoft.PowerBi.Api**.
 
-![](media\image57.png){width="4.318862642169729in"
+![](/media/image57.png){width="4.318862642169729in"
 height="1.2391666666666667in"}
 
 131. Close the the **UserOwnsData.csproj** file without saving any
@@ -913,13 +913,13 @@ you can begin to program against the classes from this package in the
 134. Create a new top-level folder in the **UserOwnsData** project named
      **Services**.
 
-![](media\image58.png){width="1.2991666666666666in"
+![](/media/image58.png){width="1.2991666666666666in"
 height="1.214035433070866in"}
 
 135. Inside the **Services** folder, create a new C\# source file named
      **PowerBiServiceApi.cs**.
 
-![](media\image59.png){width="1.3658573928258968in"
+![](/media/image59.png){width="1.3658573928258968in"
 height="0.7191666666666666in"}
 
 136. Copy and paste the following code into **PowerBiServiceApi.cs** to
@@ -1289,7 +1289,7 @@ font-size: 0.8em;
 162. The code in **Embed.cshtml** should now match the following
      screenshot..
 
-![](media\image60.png){width="3.345833333333333in"
+![](/media/image60.png){width="3.345833333333333in"
 height="1.6792771216097988in"}
 
 163. Save your changes and close **Embed.cshtml**.
@@ -1306,7 +1306,7 @@ height="1.6792771216097988in"}
 167. Click on the **Embed** link in the top nav menu to navigate to the
      **Embed** page.
 
-![](media\image61.png){width="3.839166666666667in"
+![](/media/image61.png){width="3.839166666666667in"
 height="0.652020997375328in"}
 
 168. If you are prompted to enter your credentials, enter your user name
@@ -1318,7 +1318,7 @@ height="0.652020997375328in"}
 170. Click the **Accept** button to consent to the application using the
      requested delegated permissions on your behalf.
 
-![](media\image62.png){width="1.0871412948381451in"
+![](/media/image62.png){width="1.0871412948381451in"
 height="1.6458333333333333in"}
 
 The **Permissions requested** dialog is only shown to each user during
@@ -1329,7 +1329,7 @@ does not need to prompt the user about permission requests.
 171. Once you navigate to the **Embed** page, it should display a table
      containing the embedding data for your Power BI report.
 
-![](media\image63.png){width="5.937952755905512in"
+![](/media/image63.png){width="5.937952755905512in"
 height="3.2191666666666667in"}
 
 172. You\'re done testing. Close the browser, return to Visual Studio
@@ -1459,12 +1459,12 @@ the code required to embed a report.
 183. Currently, there should be one file inside the **wwwroot \> js**
      folder named **site.js**.
 
-![](media\image64.png){width="2.277283464566929in"
+![](/media/image64.png){width="2.277283464566929in"
 height="1.0858333333333334in"}
 
 184. Rename **site.js** to **embed.js**.
 
-![](media\image65.png){width="2.247969160104987in"
+![](/media/image65.png){width="2.247969160104987in"
 height="1.3191666666666666in"}
 
 185. Add the JavaScript code to **embed.js** to embed a report.
@@ -1590,7 +1590,7 @@ heightBuffer);
 
 193. Your code in **embed.js** should match the following screenshot.
 
-![](media\image66.png){width="3.242325021872266in"
+![](/media/image66.png){width="3.242325021872266in"
 height="2.776030183727034in"}
 
 Remember you can copy and paste all the code at once by using the text
@@ -1613,13 +1613,13 @@ in **Exercise 4 - embed.js.txt** in the **StudentLabFiles** folder.
 199. You should now be able to navigate to the **Embed** page and see
      the Power BI report displayed on the page.
 
-![](media\image67.png){width="5.094639107611549in"
+![](/media/image67.png){width="5.094639107611549in"
 height="3.3410094050743657in"}
 
 200. Try resizing the browser window. The embedded report should
      continually adapt to the size of the window.
 
-![](media\image68.png){width="4.354166666666667in"
+![](/media/image68.png){width="4.354166666666667in"
 height="3.1194575678040244in"}
 
 201. You\'re done testing. Close the browser, return to Visual Studio
@@ -1663,7 +1663,7 @@ output file named **embed.js**.
         **webpack.config.js** into the root folder of the
         **UserOwnsData** project.
 
-![](media\image69.png){width="1.4270199037620297in"
+![](/media/image69.png){width="1.4270199037620297in"
 height="1.316459973753281in"}
 
 Visual Studio Code makes it difficult to add existing files to a project
@@ -1676,7 +1676,7 @@ the **StudentLabFiles** folder to the **UserOwnsData** project folder.
     a.  Open **package.json** and review the Node.js packages referenced
         in **devDependencies** section.
 
-![](media\image70.png){width="2.7951181102362206in"
+![](/media/image70.png){width="2.7951181102362206in"
 height="1.1962849956255468in"}
 
 202. Open the Visual Studio Code terminal by clicking the **View \>
@@ -1685,13 +1685,13 @@ height="1.1962849956255468in"}
 203. Run the **npm install** command to restore the list of Node.js
      packages.
 
-![](media\image71.png){width="2.5681233595800523in"
+![](/media/image71.png){width="2.5681233595800523in"
 height="0.4573961067366579in"}
 
 204. When you run the **npm install** command, **npm** will download all
      the Node.js packages into the **node_modules** folder.
 
-![](media\image72.png){width="5.615047025371829in"
+![](/media/image72.png){width="5.615047025371829in"
 height="1.4392891513560806in"}
 
 205. Take a quick look at the **tsconfig.json** file.
@@ -1761,7 +1761,7 @@ webpack utility runs, it will look for a file named **embed.ts** in the
 
 213. Create a new file inside the **Scripts** folder named **embed.ts**.
 
-![](media\image73.png){width="2.1165649606299213in"
+![](/media/image73.png){width="2.1165649606299213in"
 height="0.9247233158355206in"}
 
 214. In Windows Explorer, locate the **Exercise 5 - embed.ts.txt** file
@@ -1773,7 +1773,7 @@ height="0.9247233158355206in"}
 216. Return to Visual Studio Code and paste the content of **Exercise
      5 - embed.ts.txt** into **Embed.ts.**
 
-![](media\image74.png){width="5.932592957130359in"
+![](/media/image74.png){width="5.932592957130359in"
 height="1.917817147856518in"}
 
 217. Save your changes and close **embed.ts**.
@@ -1783,7 +1783,7 @@ height="1.917817147856518in"}
 219. Locate the original **embed.js** file in the **wwwroot/js** folder
      and delete it.
 
-![](media\image75.png){width="1.1165649606299213in"
+![](/media/image75.png){width="1.1165649606299213in"
 height="1.1683705161854767in"}
 
 220. Open the Visual Studio Code terminal by clicking the **View \>
@@ -1795,13 +1795,13 @@ height="1.1683705161854767in"}
      generate a new version of **embed.js** in the **wwwroot/js**
      folder.
 
-![](media\image76.png){width="3.7460378390201226in"
+![](/media/image76.png){width="3.7460378390201226in"
 height="1.646091426071741in"}
 
 223. Open the new version of **embed.js**. You should see it is a source
      file generated by the webpack utility.
 
-![](media\image77.png){width="3.3779396325459317in"
+![](/media/image77.png){width="3.3779396325459317in"
 height="1.1511909448818898in"}
 
 224. Close **embed.js** without saving any changes.
@@ -1812,7 +1812,7 @@ height="1.1511909448818898in"}
 226. Open the .NET 5 project file **UserOwnsData.csproj** in an editor
      window.
 
-![](media\image78.png){width="6.611255468066492in"
+![](/media/image78.png){width="6.611255468066492in"
 height="2.3858333333333333in"}
 
 227. Add a new **Target** element named **PostBuild** to run the **npm
@@ -1855,13 +1855,13 @@ Version=\"0.3.0-preview\" /\>
 
 229. Return to the terminal and run the **dotnet build** command.
 
-![](media\image79.png){width="1.8871423884514436in"
+![](/media/image79.png){width="1.8871423884514436in"
 height="0.37452318460192474in"}
 
 230. When you run the **dotnet build** command, the output window should
      show you that the webpack command is running.
 
-![](media\image80.png){width="2.3472648731408574in"
+![](/media/image80.png){width="2.3472648731408574in"
 height="1.9941863517060368in"}
 
 Now whenever you start a debug session with the **{F5}** key, the
@@ -1880,7 +1880,7 @@ TypeScript in **embed.ts** will be automatically compiled into
 234. You should now be able to navigate to the **Embed** page and see
      the Power BI report displayed on the page.
 
-![](media\image67.png){width="4.764442257217848in"
+![](/media/image67.png){width="4.764442257217848in"
 height="1.1014654418197725in"}
 
 When you test the **UserOwnsData** web application, it should behave
@@ -1982,7 +1982,7 @@ PowerBiServiceApi.cs.txt** file in the **StudentLabFiles** folder.
 c.  To enhance your conceptual understanding, examine a sample of JSON
     returned by the **GetEmbeddedViewModel** method.
 
-![](media\image81.png){width="4.212295494313211in"
+![](/media/image81.png){width="4.212295494313211in"
 height="1.7839851268591427in"}
 
 d.  Save your work and close **PowerBiServiceApi.cs**.
@@ -2057,7 +2057,7 @@ instead of a view model being passed to the underlying view.
 240. Return to Visual Studio Code and paste the content of **Exercise
      6 - Embed.cshtml.txt** into **Embed.cshtml.**
 
-![](media\image82.png){width="3.288343175853018in"
+![](/media/image82.png){width="3.288343175853018in"
 height="1.072723097112861in"}
 
 241. Save your changes and close **Embed.cshtml.**
@@ -2076,7 +2076,7 @@ height="1.072723097112861in"}
 246. Return to Visual Studio Code and paste the content of **Exercise
      6 - Embed.ts.txt** into **Embed.ts.**
 
-![](media\image83.png){width="3.9093307086614173in"
+![](/media/image83.png){width="3.9093307086614173in"
 height="1.2613746719160106in"}
 
 247. Save your changes and close **Embed.cshtml.**
@@ -2093,7 +2093,7 @@ height="1.2613746719160106in"}
 251. The **Embed** page should appear much differently than before as
      shown in the following screenshot.
 
-![](media\image84.png){width="4.802208005249343in"
+![](/media/image84.png){width="4.802208005249343in"
 height="1.3391666666666666in"}
 
 Note there is a dropdown list for the **Current Workspace** that you can
@@ -2101,34 +2101,34 @@ use to navigate across workspaces.
 
 252. Navigate to the workspace you created earlier in this lab.
 
-![](media\image85.png){width="3.4409962817147854in"
+![](/media/image85.png){width="3.4409962817147854in"
 height="1.1275535870516185in"}
 
 253. Click on a report in the **Open Report** section.
 
-![](media\image86.png){width="3.9275535870516185in"
+![](/media/image86.png){width="3.9275535870516185in"
 height="1.031192038495188in"}
 
 254. The report should open in read-only mode.
 
-![](media\image87.png){width="4.70400043744532in"
+![](/media/image87.png){width="4.70400043744532in"
 height="1.2903969816272967in"}
 
 255. Click the **Toggle Edit Mode** button to move the report into edit
      mode.
 
-![](media\image88.png){width="2.900379483814523in"
+![](/media/image88.png){width="2.900379483814523in"
 height="1.1340048118985127in"}
 
 256. Note that when the report goes into edit mode, there isn\'t much
      space to work on the report while editing.
 
-![](media\image89.png){width="3.051535433070866in"
+![](/media/image89.png){width="3.051535433070866in"
 height="1.3954483814523184in"}
 
 257. Click the Full Screen button to enter full screen mode
 
-![](media\image90.png){width="2.8694892825896763in"
+![](/media/image90.png){width="2.8694892825896763in"
 height="0.7425590551181103in"}
 
 You can invoke the **File \> Save** command in a report that is in edit
@@ -2139,34 +2139,34 @@ mode to save your changes.
 259. Click on a second report in the **Open Report** section to navigate
      between reports.
 
-![](media\image91.png){width="3.4528510498687663in"
+![](/media/image91.png){width="3.4528510498687663in"
 height="1.2100831146106736in"}
 
 260. Create a new report by clicking on a dataset name in the **New
      Report** section.
 
-![](media\image92.png){width="4.146908355205599in"
+![](/media/image92.png){width="4.146908355205599in"
 height="1.17292104111986in"}
 
 261. Add a simple visual of any type to the new report.
 
-![](media\image93.png){width="4.997918853893263in"
+![](/media/image93.png){width="4.997918853893263in"
 height="1.8243285214348206in"}
 
 262. Save the new report using the **File \> Save as** menu command.
 
-![](media\image94.png){width="3.2620614610673666in"
+![](/media/image94.png){width="3.2620614610673666in"
 height="1.0821883202099738in"}
 
 263. Give your new report a name.
 
-![](media\image95.png){width="2.788377077865267in"
+![](/media/image95.png){width="2.788377077865267in"
 height="0.7810728346456693in"}
 
 264. After you click save, the new report should show up in the Open
      Report section and be displayed in read-only mode.
 
-![](media\image96.png){width="5.615999562554681in"
+![](/media/image96.png){width="5.615999562554681in"
 height="2.972930883639545in"}
 
 265. When you\'re done testing, close the browser, return to Visual
