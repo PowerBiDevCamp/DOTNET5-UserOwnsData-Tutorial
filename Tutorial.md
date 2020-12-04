@@ -1,4 +1,4 @@
-## Developing with Power BI Embedding using .NET 5
+# Developing with Power BI Embedding using .NET 5
 In this lab, you will create a new .NET 5 project for a custom web
 application and then you will go through the steps required to implement
 Power BI embedding. You will use the new Microsoft authentication
@@ -26,12 +26,10 @@ also have the following software and developer tools installed.
 - **Visual Studio 2019** (optional) --
 [[download](https://visualstudio.microsoft.com/downloads/)]
 
-Please refer to this [setup
-document](https://github.com/PowerBiDevCamp/Camp-Sessions/raw/master/Create%20Power%20BI%20Development%20Environment.pdf)
-if you need more detail on how to configure your developer workstation
-to work on this tutorial.
+Please refer to this [setup document](https://github.com/PowerBiDevCamp/Camp-Sessions/raw/master/Create%20Power%20BI%20Development%20Environment.pdf)
+if you need more detail on how to configure your developer workstation to work on this tutorial.
 
-### Exercise 1: Create a New Azure AD Application
+## Exercise 1: Create a New Azure AD Application
 In this exercise, you will begin by copying the student files into a
 local folder on your student workstation. After that, you will use the
 .NET 5 CLI to create a new .NET 5 project for an MVC web application
