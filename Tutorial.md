@@ -51,7 +51,7 @@ with support for authentication.
 3.  Download the ZIP archive with the student lab files from GitHub by
     clicking the following link.
 ```
-<https://github.com/PowerBiDevCamp/DOTNET5-UserOwnsData-Tutorial/raw/main/StudentLabFiles.zip>
+(<https://github.com/PowerBiDevCamp/DOTNET5-UserOwnsData-Tutorial/raw/main/StudentLabFiles.zip>)<https://github.com/PowerBiDevCamp/DOTNET5-UserOwnsData-Tutorial/raw/main/StudentLabFiles.zip>
 ```
 4.  Extract the **StudentLabFiles** folder from **StudentLabFiles.zip**
     into a to a local folder such as **c:\\DevCamp\\StudentLabFiles**.
