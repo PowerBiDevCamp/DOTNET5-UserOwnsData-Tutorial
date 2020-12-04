@@ -79,9 +79,9 @@ provides to make it easier to copy and paste.
 
 9.  The script begins by calling **Connect-AzureAD** to establish a
     connection with Azure AD.
-
+```
 \$authResult = Connect-AzureAD
-
+```
 10. The script contains two variables to set the application name and a
     reply URL of **https://localhost:5001/signin-oidc**.
 
