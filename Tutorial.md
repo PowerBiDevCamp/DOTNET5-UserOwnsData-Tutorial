@@ -149,7 +149,7 @@ PowerShell module named **AzureAD**.
 16. When the PowerShell script runs successfully, it will create and
     open a text file named **UserOwnsDataSampleApp.txt**.
 
-![](/media/image2.png){width="2.768640638670166in"
+![](/media/image2.png){:width="2.768640638670166in"
 height="2.0269346019247596in"}
 
 You should leave the text file **UserOwnsDataSampleApp.txt** open for
@@ -171,7 +171,7 @@ the new Microsoft authentication library named Microsoft.Identity.Web..
 17. Using Windows Explorer, create a child folder inside the
     **C:\\DevCamp** folder named **UserOwnsData**.
 
-![](/media/image3.png){width="2.6809208223972005in"
+![](/media/image3.png){:width="2.6809208223972005in"
 height="0.8044652230971129in"}
 
 18. Launch Visual Studio Code.
@@ -179,7 +179,7 @@ height="0.8044652230971129in"}
 19. Use the **Open Folder...** command in Visual Studio Code to open the
     **UserOwnsData** folder.
 
-![](/media/image4.png){width="3.5007403762029745in"
+![](/media/image4.png){:width="3.5007403762029745in"
 height="0.86873687664042in"}
 
 a.  Once you have open the **UserOwnsData** folder, close the
