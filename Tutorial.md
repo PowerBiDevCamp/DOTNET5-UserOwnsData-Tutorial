@@ -1,6 +1,5 @@
 Developing with Power BI Embedding using .NET 5
 -----------------------------------------------
-
 In this lab, you will create a new .NET 5 project for a custom web
 application and then you will go through the steps required to implement
 Power BI embedding. You will use the new Microsoft authentication
@@ -18,18 +17,18 @@ To complete this lab, your developer workstation must configure to allow
 the execution of PowerShell scripts. Your developer workstation must
 also have the following software and developer tools installed.
 
-1\) **PowerShell cmdlet library for AzureAD** --
+ - **PowerShell cmdlet library for AzureAD** --
 \[[download](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)\]
 
-2\) **.NET 5 SDK** --
+- **.NET 5 SDK** --
 \[[download](https://dotnet.microsoft.com/download/dotnet/5.0)\]
 
-3\) **Node.js** -- \[[download](https://nodejs.org/en/download/)\]
+- **Node.js** -- \[[download](https://nodejs.org/en/download/)\]
 
-4\) **Visual Studio Code** --
+- **Visual Studio Code** --
 \[[download](https://code.visualstudio.com/Download)\]
 
-5\) **Visual Studio 2019** (optional) --
+- **Visual Studio 2019** (optional) --
 \[[download](https://visualstudio.microsoft.com/downloads/)\]
 
 Please refer to this [setup
@@ -38,7 +37,6 @@ if you need more detail on how to configure your developer workstation
 to work on this tutorial.
 
 ### Exercise 1: Create a New Azure AD Application
-
 In this exercise, you will begin by copying the student files into a
 local folder on your student workstation. After that, you will use the
 .NET 5 CLI to create a new .NET 5 project for an MVC web application
@@ -52,9 +50,9 @@ with support for authentication.
 
 3.  Download the ZIP archive with the student lab files from GitHub by
     clicking the following link.
-
+```
 <https://github.com/PowerBiDevCamp/DOTNET5-UserOwnsData-Tutorial/raw/main/StudentLabFiles.zip>
-
+```
 4.  Extract the **StudentLabFiles** folder from **StudentLabFiles.zip**
     into a to a local folder such as **c:\\DevCamp\\StudentLabFiles**.
 
