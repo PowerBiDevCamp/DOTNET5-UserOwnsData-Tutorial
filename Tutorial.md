@@ -1,5 +1,4 @@
-Developing with Power BI Embedding using .NET 5
------------------------------------------------
+## Developing with Power BI Embedding using .NET 5
 In this lab, you will create a new .NET 5 project for a custom web
 application and then you will go through the steps required to implement
 Power BI embedding. You will use the new Microsoft authentication
@@ -18,18 +17,14 @@ the execution of PowerShell scripts. Your developer workstation must
 also have the following software and developer tools installed.
 
  - **PowerShell cmdlet library for AzureAD** --
-\[[download](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)\]
-
+[[download](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)]
 - **.NET 5 SDK** --
-\[[download](https://dotnet.microsoft.com/download/dotnet/5.0)\]
-
-- **Node.js** -- \[[download](https://nodejs.org/en/download/)\]
-
+[[download](https://dotnet.microsoft.com/download/dotnet/5.0)]
+- **Node.js** -- [[download](https://nodejs.org/en/download/)]
 - **Visual Studio Code** --
-\[[download](https://code.visualstudio.com/Download)\]
-
+[[download](https://code.visualstudio.com/Download)]
 - **Visual Studio 2019** (optional) --
-\[[download](https://visualstudio.microsoft.com/downloads/)\]
+[[download](https://visualstudio.microsoft.com/downloads/)]
 
 Please refer to this [setup
 document](https://github.com/PowerBiDevCamp/Camp-Sessions/raw/master/Create%20Power%20BI%20Development%20Environment.pdf)
