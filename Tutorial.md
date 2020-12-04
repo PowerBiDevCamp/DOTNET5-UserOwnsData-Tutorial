@@ -90,7 +90,7 @@ $appDisplayName = User-Owns-Data Sample App"
 $replyUrl = "https://localhost:5001/signin-oidc\"
 ```
 
-When you register a reply URL with **localhost** with a port number such
+> When you register a reply URL with **localhost** with a port number such
 as **5001**, Azure AD will allow you to perform testing with reply URLs
 that use localhost and any other port number. For example, you can use a
 reply URL of **https://localhost:** 5001**/signin-oidc**.
