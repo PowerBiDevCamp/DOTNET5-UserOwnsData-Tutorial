@@ -59,7 +59,7 @@ with support for authentication.
 5.  The **StudentLabFiles** folder should contain the set of files shown
     in the following screenshot.
 
-<img src="/media/image1.png" width="500">
+<img src="/media/image1.png" width="840">
 
 The files in the **StudentLabFiles** folder contain code that you will
 be required to write during the exercises of this lab. These files are
